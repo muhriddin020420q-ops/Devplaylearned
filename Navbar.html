@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+c<!DOCTYPE html>
 <html lang="uz">
 <head>
     <meta charset="UTF-8">
@@ -59,35 +59,40 @@
 
     <div class="code-card">
         <div class="header"><span>HTML KODI</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
-        <pre>&lt;!-- 10 xil variant uchun bitta struktura (Klasni n1 dan n10 gacha o'zgartiring) --&gt;
-&lt;nav class="n1"&gt;
-  &lt;div class="logo"&gt;BRAND&lt;/div&gt;
-  &lt;div class="links"&gt;
-    &lt;a href="#"&gt;Home&lt;/a&gt;
-    &lt;a href="#"&gt;About&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/nav&gt;</pre>
+        <pre>
+    <nav class="nav-master n1"><div class="logo">Cyber</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n2"><div class="logo">Apple</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n3"><div class="logo">Gradient</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n4"><div class="logo">Neon</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n5"><div class="logo">Blue-Shadow</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n6"><div class="logo">Red-Line</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n7"><div class="logo">Neumorph</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n8"><div class="logo">ZigZag</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n9"><div class="logo">Left-Bold</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    <nav class="nav-master n10"><div class="logo">Royal</div><div class="links"><a href="#">Home</a><a href="#">About</a></div></nav>
+    </pre>
     </div>
 
     <div class="code-card">
         <div class="header"><span>CSS KODI (Barcha 10 tasi)</span><button class="copy-btn" onclick="copy(this)">Copy</button></div>
         <pre>
- /*link soʻz yoki logo stili */
- .logo { font-weight: bold; font-size: 1.2rem; }
- .links { display: flex; gap: 20px; }
- .links a { text-decoration: none; color: inherit; font-size: 14px; }
-            
-/* Har biri uchun alohida dizayn */
-.n1 { background: #fcee0a; color: #000; clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%); }
-.n2 { background: rgba(255,255,255,0.05); backdrop-filter: blur(15px); border-radius: 50px; }
-.n3 { background: linear-gradient(90deg, #ff0080, #7928ca); color: #fff; border-radius: 15px; }
-.n4 { background: #000; color: #39ff14; border: 1px solid #39ff14; box-shadow: 0 0 15px #39ff1455; }
-.n5 { background: #fff; color: #000; border-radius: 20px 0 20px 0; box-shadow: 8px 8px 0 #58a6ff; }
-.n6 { background: #161b22; border-bottom: 4px solid #f85149; }
-.n7 { background: #0d1117; box-shadow: inset 8px 8px 16px #05070a, inset -8px -8px 16px #151a24; border-radius: 12px; color: #58a6ff; }
-.n8 { background: #4338ca; color: #fff; clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%); }
-.n9 { background: #fff; color: #000; border-left: 10px solid #000; }
-.n10 { background: #1a1a1a; color: #d4af37; border: 2px solid #d4af37; border-radius: 0 50px 0 50px; }</pre>
+        .nav-master { width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 15px 25px; box-sizing: border-box; margin-bottom: 20px; }
+        .logo { font-weight: bold; font-size: 1.2rem; }
+        .links { display: flex; gap: 20px; }
+        .links a { text-decoration: none; color: inherit; font-size: 14px; }
+
+        /* 10 TA NAVBAR STILLARI */
+        .n1 { background: #fcee0a; color: #000; clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%); }
+        .n2 { background: rgba(255,255,255,0.05); backdrop-filter: blur(15px); border: 1px solid #ffffff20; border-radius: 50px; }
+        .n3 { background: linear-gradient(90deg, #ff0080, #7928ca); color: #fff; border-radius: 15px; }
+        .n4 { background: #000; color: #39ff14; border: 1px solid #39ff14; box-shadow: 0 0 15px #39ff1455; }
+        .n5 { background: #fff; color: #000; border-radius: 20px 0 20px 0; box-shadow: 8px 8px 0 #58a6ff; }
+        .n6 { background: #161b22; border-bottom: 4px solid #f85149; }
+        .n7 { background: #0d1117; box-shadow: inset 8px 8px 16px #05070a, inset -8px -8px 16px #151a24; border-radius: 12px; color: #58a6ff; }
+        .n8 { background: #4338ca; color: #fff; clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%); }
+        .n9 { background: #fff; color: #000; border-left: 10px solid #000; }
+        .n10 { background: #1a1a1a; color: #d4af37; border: 2px solid #d4af37; border-radius: 0 50px 0 50px; }
+        </pre>
     </div>
 
 </div>
